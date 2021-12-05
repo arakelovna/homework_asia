@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.42;
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+ a{
+    color: inherit;
+} 
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+button {
+    background: red;
+    color: white;
+    padding: 0;
+    outline: none;
+    border: 1px solid transparent;
+}
+}
+.container {
+    margin: 0 auto;
+    width: 1150px;
+    padding: 0px;
+}
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 82px;
+}
+.logo {
+    display: block;
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    
+}
+.breadcrumps{
+    position: absolute;
+    top: 41px;
+    left: 163px;
+}
+
+.breadcrumps__item {
+    margin-right: 51px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.breadcrumps__item:last-child {
+    margin-right: 0;
+}
+.breadcrumps__link {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    font-style: normal;
+}
+.contacts{
+    position: absolute;
+    top: 27px;
+    right: 10px;
+    font-style: normal;
+    text-align: right; 
+}
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+    
+    
+}
+.contacts__workhours-title {
+    text-decoration: underline;
+    font-size: 13px;
+    line-height: 20px;
+    position:absolute;
+    top: 28px;
+    left:93px;
+}
+.schedule {
+    background: #EDEDED;
+    opacity: 0.8;
+    margin-top: 16px;
+    width: 160px;
+    height: 70px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 9px;
+}
+.schedule__list{
+    padding: 13px;
+}
+.schedule__item {
+    font-size: 13px;
+    color:black;
+    line-height: 21px;
+  
+    
+}
+.main-content{
+    display: block;
+}
+
+.preview {
+    width: 520px;
+    margin-top: 0px;
+
+}
+.preview__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 97px;
+    margin-bottom: 23.5px;
+    margin-top: 0px;
+}
+.preview__text {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-bottom: 29.5px;
+
+}
+
+.preview__button{
+    border-radius: 35px;
+    height: 55px;
+    width: 168px;
+    font-weight: bold;
+    margin-bottom: 246px;
+}
+
+
+.tours-block__item {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 51px;
+}
+.tours-block__item:last-child {
+    margin-right: 0;
+}
+.tours-block_pic{
+    margin-bottom: -2px;
+}
+.country {
+    margin-bottom: 127px;
+}
+.country__item{
+    display: inline-block;
+    width: 362px;
+    margin-right: 27px;
+    height: 449px;
+    background: #FFFFFF;
+    color: black;
+    padding: 0 22px;
+    
+
+}
+.country__item:last-child {
+    margin-right: 0px;
+}
+.country__pictures{
+    margin-left: -22px;
+    margin-top: 0px;
+}
+.country__details {
+    display: inline-block;
+}
+.country__input {
+    display: inline-block;
+    font-size: 16px;
+    color: #666666;
+    margin-right: 12px;
+}
+
+.country__subtitle{
+    font-size: 26px;
+    margin-top : 33px ;
+   
+}
+.country__description {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 21px;
+    margin-top: 31.5px;
+    color: #303030;
+}
+.country__button{
+    border-radius: 35px;
+    height: 55px;
+    width: 135px;
+    border: 1px solid transparent;
+    color: white;
+    background: #F5170E;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.country__button--border {
+    border-color: #F5170E;
+    color: #F5170E;
+    background: transparent;
+}
+.offers__list {
+    padding:0px;
+    margin: 0px;
+
+}
+.offers__title {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+    margin-bottom: 51px;
+}
+.offers__item {
+    display: inline-block;
+    vertical-align: center;
+    width: 557px;
+    height: 394px;
+    margin-right: 25px;
+    padding:0;
+    position: relative;
+}
+.offers__item:last-child {
+    margin-right: 0px;
+}
+.offers__content{
+    position: absolute;
+    top: 262.5px;
+    margin: 0 32px;
+}
+.offers__date{
+    font-size: 14px;
+}
+.offers__date-year{
+    position: absolute;
+    left:75px;
+    top:0px;
+    
+}
+.offers__text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 14.5px;
+}
+.offers__line {
+    font-size: 16px;
+}
+.paginator{
+     text-align: center;
+     margin-top: 57.5px;
+     margin-bottom: 152.5px;
+}
+.paginator__display , .paginator__list, .paginator__item {
+    display: inline-block;
+}
+.paginator__link {
+    color: #ffffff;
+    background: transparent;
+    padding:7px 12px;
+    border-radius: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.paginator__link--active {
+    background: #ffffff;
+    color: #F5170E;
+}
+.paginator__display {
+    margin-right: 25px;
+}
+.about-us__picture, .about-us, .about-us__picture-text{
+    display: inline-block;
+    vertical-align: top;
+}
+.about-us{
+    width:500px;
+    height: 455px;
+    background:transparent;
+    color:black;
+    margin-left: -141px;
+    margin-top: 96px;
+    position: relative;
+   
+}  
+
+.about-us__content{
+    position: absolute;
+    top:70px;
+    left: 81px;
+    color:black;
+}
+.about-us__content-title{
+    font-size: 36px;
+    font-weight: bold;
+}
+.about-us__content-text{
+    font-size:16px;
+    margin-top: 37px;
+    width: 502px;
+    line-hight: 27px;
+}
+.about-us__batton {
+    border-radius: 35px;
+    height: 55px;
+    width: 168px;
+    font-weight: bold;
+    margin-top: 86px;
+}
+.footer{ 
+    position:relative;
+    margin-top:38px;
+    height: 146px;
+}
+.logo-footer{
+    position: absolute;
+    top: 63px;
+    left: 0px;
+}
+
+.menu {
+    position: absolute;
+    top:8px;
+    left: 164px;
+}
+.menu__item {
+    margin-top: 69px;
+    margin-right: 51px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu__item :last-child{
+    margin-right: 0px;
+}
+.menu__link {
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    font-style: normal;
+   
+}
+.social-media {
+    position: absolute;
+    top:8px;
+    left: 700px;
+}
+.social-media__item {
+    margin-top: 60px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contacts-footer__comment {
+    position: absolute;
+    top: 64px;
+    right: 11px;
+    font-size: 11px;
+    font-style: normal;
+    text-align: right; 
+}
+.contacts-footer__phone{
+    position: absolute;
+    top: 81px;
+    right: 9px;
+    font-size: 26px;
+    line-height:20 px;
+    font-style: normal;
+    text-align: right; 
+    text-decoration: none;
+}
