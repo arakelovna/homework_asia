@@ -32,7 +32,7 @@ button {
     outline: none;
     border: 1px solid transparent;
 }
-}
+
 .container {
     margin: 0 auto;
     width: 1150px;
@@ -113,6 +113,7 @@ button {
 }
 .main-content{
     display: block;
+    align-items: center;
 }
 
 .preview {
@@ -159,7 +160,7 @@ button {
     margin-bottom: -2px;
 }
 .country {
-    margin-bottom: 127px;
+    margin-bottom: 139px;
 }
 .country__item{
     display: inline-block;
@@ -227,7 +228,7 @@ button {
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
-    margin-bottom: 51px;
+    margin-bottom: 52px;
 }
 .offers__item {
     display: inline-block;
@@ -243,7 +244,7 @@ button {
 }
 .offers__content{
     position: absolute;
-    top: 262.5px;
+    top: 255.5px;
     margin: 0 32px;
 }
 .offers__date{
@@ -265,7 +266,7 @@ button {
 }
 .paginator{
      text-align: center;
-     margin-top: 57.5px;
+     margin-top: 50.5px;
      margin-bottom: 152.5px;
 }
 .paginator__display , .paginator__list, .paginator__item {
