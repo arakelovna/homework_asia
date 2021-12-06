@@ -9,6 +9,7 @@ body {
     background: #001821;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin:0;
     
 }
  a{
@@ -86,15 +87,13 @@ button {
 .contacts__workhours-title {
     text-decoration: underline;
     font-size: 13px;
-    line-height: 20px;
-    position:absolute;
-    top: 28px;
-    left:93px;
+    line-height: 5px;
+    
 }
 .schedule {
     background: #EDEDED;
     opacity: 0.8;
-    margin-top: 16px;
+    margin-top: 13px;
     width: 160px;
     height: 70px;
     text-align: center;
@@ -119,6 +118,7 @@ button {
 .preview {
     width: 520px;
     margin-top: 0px;
+    margin-bottom:250px;
 
 }
 .preview__title {
@@ -140,10 +140,11 @@ button {
     height: 55px;
     width: 168px;
     font-weight: bold;
-    margin-bottom: 246px;
 }
 
-
+.tours-block__title{
+margin-bottom: 53px;
+}
 .tours-block__item {
     display: inline-block;
     margin-right: 12px;
@@ -151,7 +152,6 @@ button {
     font-size: 36px;
     font-weight: bold;
     line-height: 42px;
-    margin-bottom: 51px;
 }
 .tours-block__item:last-child {
     margin-right: 0;
@@ -160,18 +160,16 @@ button {
     margin-bottom: -2px;
 }
 .country {
-    margin-bottom: 139px;
+    margin-bottom: 133px;
 }
 .country__item{
     display: inline-block;
     width: 362px;
-    margin-right: 27px;
+    margin-right: 23px;
     height: 449px;
     background: #FFFFFF;
     color: black;
     padding: 0 22px;
-    
-
 }
 .country__item:last-child {
     margin-right: 0px;
@@ -182,24 +180,26 @@ button {
 }
 .country__details {
     display: inline-block;
+    padding: 15px;
 }
 .country__input {
     display: inline-block;
     font-size: 16px;
     color: #666666;
-    margin-right: 12px;
 }
-
+.country__content{
+    padding: 27px 0 0;
+}
 .country__subtitle{
     font-size: 26px;
-    margin-top : 33px ;
+    font-weight:bold;
    
 }
 .country__description {
     font-size: 14px;
     font-weight: normal;
     line-height: 21px;
-    margin-top: 31.5px;
+    margin-top: 4.5px;
     color: #303030;
 }
 .country__button{
@@ -212,7 +212,7 @@ button {
     font-weight: bold;
     margin-bottom: 0px;
     margin-top: 6px;
-    margin-left: 6px;
+    
 }
 .country__button--border {
     border-color: #F5170E;
@@ -244,17 +244,14 @@ button {
 }
 .offers__content{
     position: absolute;
-    top: 255.5px;
+    bottom: 46.5px;
     margin: 0 32px;
 }
 .offers__date{
     font-size: 14px;
 }
-.offers__date-year{
-    position: absolute;
-    left:75px;
-    top:0px;
-    
+.offers__date-year, .offers__date-month{
+    display: inline-block;
 }
 .offers__text {
     font-size: 24px;
@@ -289,6 +286,9 @@ button {
 .paginator__display {
     margin-right: 25px;
 }
+.about-us__picture-text{
+    position: absolute;
+}
 .about-us__picture, .about-us, .about-us__picture-text{
     display: inline-block;
     vertical-align: top;
@@ -305,10 +305,9 @@ button {
 }  
 
 .about-us__content{
-    position: absolute;
-    top:70px;
-    left: 81px;
     color:black;
+    position: relative;
+    padding: 70px 82px;
 }
 .about-us__content-title{
     font-size: 36px;
@@ -361,7 +360,7 @@ button {
 }
 .social-media {
     position: absolute;
-    top:8px;
+    top:11px;
     left: 700px;
 }
 .social-media__item {
