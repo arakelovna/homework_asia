@@ -34,14 +34,16 @@ button {
     outline: none;
     border: 1px solid transparent;
 }
-
+.wrapper {
+    background-image: url(./pictures/back.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
 .container {
     margin: 0 auto;
     width: 1150px;
     padding: 0px;
-    background-image: url(./pictures/back.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
+  
 }
 .header {
     height: 120px;
@@ -372,7 +374,7 @@ margin-bottom: 53px;
     display: inline-block;
     vertical-align: middle;
 }
-.social-media__item :last-child {
+.social-media__item:last-child {
     margin-right: 0;
 }
 .contacts-footer__comment {
