@@ -38,6 +38,9 @@ button {
     margin: 0 auto;
     width: 1150px;
     padding: 0px;
+    background-image:url(/pictures/1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
 }
 .header {
     height: 120px;
@@ -360,18 +363,20 @@ margin-bottom: 53px;
 }
 .social-media {
     position: absolute;
-    top:11px;
+    top:76px;
     left: 700px;
 }
 .social-media__item {
-    margin-top: 60px;
     margin-right: 6px;
     display: inline-block;
     vertical-align: middle;
 }
+.social-media__item :last-child {
+    margin-right: 0;
+}
 .contacts-footer__comment {
     position: absolute;
-    top: 64px;
+    top: 68px;
     right: 11px;
     font-size: 11px;
     font-style: normal;
