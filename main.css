@@ -370,12 +370,12 @@ margin-bottom: 53px;
     display:flex;
     margin-top: 53px;
     height: 146px;
-    align-items: end;
     justify-content: space-between;
     border-top: solid  1px;
     border-top-style: groove;
     line-height: 50%;
     align-items: center;
+    
 
 }
 .logo-footer{
@@ -582,7 +582,7 @@ margin-bottom: 53px;
     font-size: 48px;
     font-weight: bold;
 }
-.container-footer {
+.container-footer--services {
     width: 1200px;
     margin-left: 390px;
 }
