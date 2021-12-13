@@ -438,7 +438,7 @@ margin-bottom: 53px;
     margin-bottom: 20px;
     justify-content: center;
     margin-top: 29px;
-    overflow-x: hidden;
+   
 
 }
 .header-name{
@@ -451,6 +451,7 @@ margin-bottom: 53px;
 }
 .wrapper--services {
     background: white;
+    overflow-x: hidden;
 }
 .top {
     background-image: url(./pictures/headline.jpg);
