@@ -34,26 +34,33 @@
                         </ul>
                     </nav>
                     <address class="contacts">
-                        <a href="tel:88007003030" class="contacts__phone">8 800 700 30 30</a>
-                        <div class="contacts__workhours-title">График работы</div>
-                    </address>  
+                        <a href="tel:88007003030" class="contacts-menu__phone">8 800 700 30 30</a>
+                        <div class="contacts-menu">
+                            <div class="contacts-menu__workhours-title">График работы</div>
+                            <div class="contacts-menu__schedule">
+                                <ul class="contacts-menu__schedule-list">
+                                    <li class="contacts-menu__schedule-item-top"> пн-вc: 09:00-20:00</li>
+                                    <li class="contacts-menu__schedule-item-bottom">Обед: 14:00-14:30</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </address> 
                 </div>
                 <div class="header-content container">
                     <h1 class="header-name">Услуги</h1>
                     <nav class="breadcrumps-middle">
                         <ul class="breadcrumps-middle__list">
                             <li class="breadcrumps-middle__item">
-                                <a href="#" class="breadcrumps-middle__link" > Главная</a>
+                                <a href="#" class="breadcrumps-middle__link" > Главная </a>
                                 <div class="breadcrumps-middle__item"> / </div>
                             </li>
                                 <li class="breadcrumps-middle__item">
-                                <a href="#" class="breadcrumps-middle__link" > Услуги</a>
-                                </li>     
+                                <a href="#" class="breadcrumps-middle__link breadcrumps-middle__link--active" > Услуги</a>
+                            </li>     
                         </ul>
                     </nav>
                 </div>
             </div>
-            
         </div> 
         <div class="content-services container">
             <ul class="trips">
@@ -77,36 +84,35 @@
                                 Остров Обезьян
                             </div>
                             <div class="trips__content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
-                            <button class="trips__button">Подробнее</button>
+                            <button class="trips__button trips__button--active">Подробнее</button>
                         </div>
                     </div>
                 </li>
             </ul>
-            </ul>
         </div>
-        <div class="paginator paginator--services">
+        <div class="paginator paginator-services">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services--active">1</a> 
+                    <a href="#" class="paginator__link paginator__link-services paginator__link-services--active">1</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">2</a> 
+                    <a href="#" class="paginator__link paginator__link-services">2</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">3</a> 
+                    <a href="#" class="paginator__link paginator__link-services">3</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">4</a> 
+                    <a href="#" class="paginator__link paginator__link-services">4</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">5</a> 
+                    <a href="#" class="paginator__link paginator__link-services">5</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">6</a> 
+                    <a href="#" class="paginator__link paginator__link-services">6</a> 
                 </li>
                 <li class="paginator__item"> 
-                    <a href="#" class="paginator__link paginator__link--services">7</a> 
+                    <a href="#" class="paginator__link paginator__link-services">7</a> 
                 </li>
             </ul>
         </div>
@@ -172,22 +178,22 @@
                 <ul class="social-media social-media--services">
                     <li class=social-media__item>
                         <a href="#" class="social-media__link">
-                            <img src="./pictures/telegram.png" alt="telegram" class="social-media__icon">
+                            <div class="social-media__icon--telegram">
                         </a>
                     </li>
                     <li class=social-media__item>
                         <a href="#" class="social-media__link">
-                            <img src="./pictures/vk.png" alt="vk" class="social-media__icon">
+                            <div class="social-media__icon--vk"></div>
                         </a>
                     </li>
                     <li class=social-media__item>
                         <a href="#" class="social-media__link">
-                            <img src="./pictures/f.png" alt="facebook" class="social-media__icon">
+                            <div class="social-media__icon--fb">
                         </a>
                     </li>
                     <li class=social-media__item>
                         <a href="#" class="social-media__link">
-                            <img src="./pictures/in.png" alt="instagram" class="social-media__icon">
+                            <div class="social-media__icon--in"></div>
                         </a>
                     </li>
                 </ul>
