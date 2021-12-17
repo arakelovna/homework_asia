@@ -802,7 +802,7 @@ margin-bottom: 53px;
 }
 .tag--active{
     background:#B9EAE4;
-    ;
+    
 }
 .review__title {
     font-size: 30px;
@@ -834,7 +834,7 @@ margin-bottom: 53px;
     padding-top: 0px;
 }
 .separator {
-    background: url(./pictures/rectangle.png);
+    background: url(./pictures/Rectangle.png);
     min-height: 363px;
     display: flex;
     justify-content: center;
